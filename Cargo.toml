@@ -3,5 +3,8 @@ name = "vfi"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+description = "A Very Fast Interpreter (VFI) using only Core and Pure Rust. Designed for directly incorporation with Rust application."
+readme = "README.md"
+repository = "https://github.com/wmarais/vfi"
 
 [dependencies]
