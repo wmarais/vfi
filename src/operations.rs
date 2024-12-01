@@ -1,3 +1,16 @@
+// macro_rules! stack_push_bytes {
+//     ($stack: expr, $bytes: expr) => {
+//         $stack.extend($bytes);
+//     }
+// }
+
+// macro_rules! stack_pop {
+//     ($stack: expr, $type) => {
+//         V::from_ne_bytes($stack[beg..end].try_into().unwrap());
+//     };
+// }
+
+
 macro_rules! op_add {
     ($stack: expr, $type:ty) => {
         let rhs: $type = $stack.pop();

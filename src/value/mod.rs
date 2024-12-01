@@ -1,6 +1,7 @@
 mod address;
 mod float;
 mod signed_integer;
+mod string;
 mod unsigned_integer;
 
 use crate::Stack;
@@ -59,5 +60,3 @@ impl<F> FunctionBinding<F> {
         
     }
 }
-
-

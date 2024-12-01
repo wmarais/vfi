@@ -286,6 +286,7 @@ impl Processor {
 
                 _ => { return Err(TrapCode::ReservedOpCode); }
             }
+
         }
         Ok(())
     }
