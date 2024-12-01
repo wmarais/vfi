@@ -8,31 +8,18 @@ use crate::Stack;
 
 pub use address::{
     Address,
-    SIZE_OF_ADDR
 };
 
 pub use float::{
     Float,
-    SIZE_OF_F32,
-    SIZE_OF_F64
 };
 
 pub use signed_integer::{
     SignedInteger,
-    SIZE_OF_I8,
-    SIZE_OF_I16,
-    SIZE_OF_I32,
-    SIZE_OF_I64,
-    SIZE_OF_I128
 };
 
 pub use unsigned_integer::{
-    UnsignedInteger,
-    SIZE_OF_U8,
-    SIZE_OF_U16,
-    SIZE_OF_U32,
-    SIZE_OF_U64,
-    SIZE_OF_U128
+    UnsignedInteger
 };
 
 pub trait Value <const K: usize>: Sized {

@@ -1,7 +1,7 @@
 use crate::Value;
 
 pub struct Stack {
-    memory: Vec<u8>
+    pub memory: Vec<u8>
 }
 
 impl Stack {
